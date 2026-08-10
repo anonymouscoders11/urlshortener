@@ -1,0 +1,124 @@
+body{
+    font-family: 'urbanist',sans-serif;
+    background-color: rgb(247, 182, 52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.container{
+    width: 400px;
+  padding: 30px;
+  border-radius: 20px;
+  background: #F7B634;
+
+  box-shadow:
+    10px 10px 20px #c18d24,
+    -10px -10px 20px #ffd46f;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+  background: #F7B634;
+  color: #222;
+  font-size: 1.6rem;
+  font-weight: 600;
+  box-shadow:
+    7px 7px 14px #c18d24,
+    -7px -7px 14px #ffd46f;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow:
+    inset 5px 5px 10px #c18d24,
+    inset -5px -5px 10px #ffd46f;
+}
+input {
+  width: 100%;
+  padding: 14px 18px;
+  box-sizing: border-box;
+
+  border: none;
+  outline: none;
+  border-radius: 12px;
+
+  background: #F7B634;
+  color: #222;
+  font-size: 16px;
+
+  box-shadow:
+    inset 6px 6px 12px #c18d24,
+    inset -6px -6px 12px #ffd46f;
+}
+
+input::placeholder {
+  color: #8a641d;
+}
+
+input:focus {
+  box-shadow:
+    inset 4px 4px 8px #c18d24,
+    inset -4px -4px 8px #ffd46f;
+}
+h1{
+    color:#333;
+    margin-bottom: 20px;
+}
+form div{
+    margin-bottom: 15px;
+    text-align: left;
+}
+label{
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+input[type="url"],
+input[type="text"]{
+ width:95%;
+ padding:12px;
+ border: 1px solid #ddd;
+ border-radius: 8px;
+ font-size: 1rem;
+}
+/* button{
+    background-color: rgb(63, 63, 170);
+    color: #fff;
+    padding: 14px 20px;
+    border-radius:8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: rgb(75, 75, 170);
+} */
+h2{
+    color: #555;
+    margin-top: 30px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    background-color: #fafafa;
+    margin: 10px 0;
+    padding:12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+li a{
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: 500;
+}
+li a:hover{
+    text-decoration: underline;
+}
