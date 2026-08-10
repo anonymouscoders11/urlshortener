@@ -2,8 +2,8 @@ import { readFile, writeFile } from "fs/promises";
 import { createServer } from "http";
 import crypto from "crypto";
 import path from "path";
+import { PORT } from './env';
 
-const PORT = 3005;
 const DATA_FILE = path.join("data", "links.json");
 
 const loadLinks = async () => {
@@ -104,6 +104,6 @@ const server = createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+server.listen(process.env.PORT, () => {
+  console.log(`Server running at http://localhost:${process.env.PORT}`);
 });
