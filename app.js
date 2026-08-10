@@ -2,7 +2,7 @@ import { readFile, writeFile } from "fs/promises";
 import { createServer } from "http";
 import crypto from "crypto";
 import path from "path";
-import { PORT } from './env';
+require("dotenv").config();
 
 const DATA_FILE = path.join("data", "links.json");
 
