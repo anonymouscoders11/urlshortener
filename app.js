@@ -102,6 +102,6 @@ const server = createServer(async (req, res) => {
   }
 });
 
-server.listen(process.env.PORT, () => {
-  console.log(`Server running at http://localhost:${process.env.PORT}`);
+server.listen(PORT, () => {
+  console.log(`Server running at http://localhost:${PORT}`);
 });
