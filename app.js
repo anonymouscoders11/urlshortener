@@ -2,6 +2,9 @@ import { readFile, writeFile } from "fs/promises";
 import { createServer } from "http";
 import crypto from "crypto";
 
+process.loadEnvFile();
+
+const PORT = Number(process.env.PORT) || 
 const DATA_FILE = path.join("data", "links.json");
 
 const loadLinks = async () => {
