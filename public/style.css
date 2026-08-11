@@ -122,3 +122,16 @@ li a{
 li a:hover{
     text-decoration: underline;
 }
+@media (min-width:320px) and (max-width:480px){
+ width: 400px;
+  padding: 30px;
+  border-radius: 20px;
+  background: #F7B634;
+
+  box-shadow:
+    10px 10px 20px #c18d24,
+    -10px -10px 20px #ffd46f;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
