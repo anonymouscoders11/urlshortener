@@ -4,7 +4,7 @@ import crypto from "crypto";
 
 process.loadEnvFile();
 
-const PORT = Number(process.env.PORT) || 
+const PORT = Number(process.env.PORT) || 3000;
 const DATA_FILE = path.join("data", "links.json");
 
 const loadLinks = async () => {
